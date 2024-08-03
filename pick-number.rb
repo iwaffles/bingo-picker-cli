@@ -84,6 +84,8 @@ def run()
       puts print_header("Next Number:")
       pick = values.sample
       puts pick
+      #exec say cli
+      system("say #{pick}")
 
       # remove pick from list
       values.delete(pick)
